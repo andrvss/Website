@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>nokoSocial</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+        <meta name="description" content="andrvss Social Media">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- My Custom Stylesheet -->
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    </head>
+    <body>
+
+        <!--------Navigation Section---------->
+
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h2 class="log">
+                        nokoSocial
+                    </h2>
+                </div>
+                <div class="search-bar">
+                    <i class="uil uil-search"></i>
+                    <input type="search" placeholder="Search for inspiration and projects...">
+                </div>
+                <div class="create">
+                    <label class="btn btn-primary" for="create post">Create</label>
+                    <div class="profile-photo">
+                        <img src="assets/profile_img-88x88/profile1-88x88.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--------End of Navigation Section---------->
+        <!-----------Main----------->
+
+        <main>
+            <div class="container">
+                <!--Left Section-->
+                <div class="left">
+                    <!--Profile Section-->
+                    <a class="profile">
+                        <div class="profile-photo">
+                            <img src="./assets/profile_img-88x88/profile1-88x88.webp" alt=""/>
+                        </div>
+                        <div class="handle">
+                            <h4>Leonardo DiCaprio</h4>
+                            <p class="text-muted">
+                                @leonardodicaprio
+                            </p>
+                        </div>
+                    </a>
+                    <!--End Of Profile Section-->
+                    <!--Side Bar Section-->
+                    <div class="sidebar">
+                        <a class="menu-item active">
+                            <span><i class="uil uil-home"></i></span>
+                            <h3>Home</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="uil uil-compass"></i></span>
+                            <h3>Explore</h3>
+                        </a>
+                        <a class="menu-item" id="notifications">
+                            <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span>
+                            <h3>Notification</h3>
+                            <!--Notification Pop Up Section-->
+                            <div class="notifications-popup">
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="./assets/profile_img-44x44/profile6-44x44.jpg" alt=""/>
+                                    </div>
+                                    <div class="notificaion-body">
+                                        <b>Matthew McConaughey</b> accepted your friend request.
+                                        <small class="text-muted">Now</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="./assets/profile_img-44x44/profile8-44x44.jpg" alt=""/>
+                                    </div>
+                                    <div class="notificaion-body">
+                                        <b>Denzel Washington</b> accepted your friend request.
+                                        <small class="text-muted">7 Minutes Ago</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="./assets/profile_img-44x44/profile9-44x44.webp" alt=""/>
+                                    </div>
+                                    <div class="notificaion-body">
+                                        <b>Martin Scorsese</b> commented on your post.
+                                        <small class="text-muted">1 Hour Ago</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="./assets/profile_img-44x44/profile10-44x44.jpg" alt=""/>
+                                    </div>
+                                    <div class="notificaion-body">
+                                        <b>Andrew Garfield</b> and <b>372 others</b> liked your post.
+                                        <small class="text-muted">1 Day Ago</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="./assets/profile_img-88x88/profile5-88x88.jpg" alt=""/>
+                                    </div>
+                                    <div class="notificaion-body">
+                                        <b>Netflix</b> commented on a post that you was tagged in.
+                                        <small class="text-muted">2 Day Ago</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="./assets/profile_img-44x44/profile11-44x44.webp" alt=""/>
+                                    </div>
+                                    <div class="notificaion-body">
+                                        <b>Henry Cavill</b> has sent you a friend request
+                                        <small class="text-muted">4 Days Ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End of Notification Popup Section-->
+                        </a>
+                        <a class="menu-item" id="messages-notification">
+                            <span><i class="uil uil-envelope"><small class="notification-count">6+</small></i></span>
+                            <h3>Message</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="uil uil-bookmark"></i></span>
+                            <h3>Bookmarks</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="uil uil-chart-line"></i></span>
+                            <h3>Analytics</h3>
+                        </a>
+                        <a class="menu-item" id="theme">
+                            <span><i class="uil uil-palette"></i></span>
+                            <h3>Theme</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="uil uil-setting"></i></span>
+                            <h3>Settings</h3>
+                        </a>    
+                    </div>
+                    <!--End Of Sidebar Section-->
+                    <label for="create-post" class="btn btn-primary">Create Post</label>
+                </div>
+                <!--End Of Left Section-->
+                <!--Middle Section-->
+                <div class="middle">
+                    <!--Styling The Shorts Stories Section-->
+                    <div class="stories">
+                        <div class="story">
+                            <div class="profile-photo">
+                                <img src="./assets/profile_img-88x88/profile1-88x88.webp" alt="">
+                            </div>
+                            <p class="name">Your Story</p>
+                        </div>
+                        <div class="story">
+                            <div class="profile-photo">
+                                <img src="./assets/profile_img-44x44/profile2-44x44.jpg">
+                            </div>
+                            <p class="name">Brad Pitt</p>
+                        </div>
+                        <div class="story">
+                            <div class="profile-photo">
+                                <img src="./assets/profile_img-44x44/profile3-44x44.jpg">
+                            </div>
+                            <p class="name">Anitta</p>
+                        </div>
+                        <div class="story">
+                            <div class="profile-photo">
+                                <img src="./assets/profile_img-44x44/profile6-44x44.jpg">
+                            </div>
+                            <p class="name">Matthew McConaug...</p>
+                        </div>
+                        <div class="story">
+                            <div class="profile-photo">
+                                <img src="./assets/profile_img-44x44/profile4-44x44.webp">
+                            </div>
+                            <p class="name">Margot Robbie</p>
+                        </div>
+                        <div class="story">
+                            <div class="profile-photo">
+                                <img src="./assets/profile_img-44x44/profile7-44x44.jpg">
+                            </div>
+                            <p class="name">Viola Davis</p>
+                        </div>
+                    </div>
+                    <!--End Of The Shorts Stories Section-->
+                    <!-- The Create Post Section-->
+                    <form class="create-post">
+                        <div class="profile-photo">
+                            <img src="assets/profile_img-88x88/profile1-88x88.webp">
+                        </div>
+                        <input type="text" placeholder="What's on your mind?" id="create-post">
+                        <input type="submit" value="Post" class="btn btn-primary">
+                    </form>
+                    <!--End Of The Create Post Section-->
+                    <!--The Feeds Section-->
+                    <div class="feeds">
+                         <!--Feed One-->
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-photo">
+                                        <img src="./assets/profile_img-88x88/profile5-88x88.jpg">
+                                    </div>
+                                    <div class="ingo">
+                                        <h3>Netflix</h3>
+                                        <small>Available now! - <span class="capitalise">44 minutes ago</span></small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="uil uil-ellipsis-h"></i>
+                                </span>
+                            </div>
+                            <div class="photo">
+                                <img src="./assets/feed/IMG_20220901_024323.webp">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="interaction-buttons">
+                                    <span><i class="uil uil-heart"></i></span>
+                                    <span><i class="uil uil-comment-dots"></i></span>
+                                    <span><i class="uil uil-share-alt"></i></span>
+                                </div>
+                                <div class="bookmark">
+                                    <span><i class="uil uil-bookmark-full"></i></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="./assets/profile_img-44x44/profile3-44x44.jpg" ></span>
+                                <span><img src="./assets/profile_img-44x44/profile6-44x44.jpg" ></span>
+                                <span><img src="./assets/profile_img-44x44/profile2-44x44.jpg" ></span>
+                                <p>Liked by <b>Jamie Fox</b> and <b>7,231 others</b></p>
+                            </div>
+
+                            <div class="caption">
+                                <p><b>Netflix</b> Watch all Love, Death & Robots seasons just here. <span class="hash-tag">#Amazing.</span></p>
+                            </div>
+                            <div class="comments text-muted">View All 532 comments</div>
+                        </div>
+                        <!--Feed Two-->
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-photo">
+                                        <img src="./assets/profile_img-88x88/profile2-88x88.jpg">
+                                    </div>
+                                    <div class="ingo">
+                                        <h3>Golden Globe Awards</h3>
+                                        <small>Only on @TNT, <span class="capitalise">1 day ago</span></small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="uil uil-ellipsis-h"></i>
+                                </span>
+                            </div>
+                            <div class="photo">
+                                <img src="./assets/feed/Feed-1.jpg">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="interaction-buttons">
+                                    <span><i class="uil uil-heart"></i></span>
+                                    <span><i class="uil uil-comment-dots"></i></span>
+                                    <span><i class="uil uil-share-alt"></i></span>
+                                </div>
+                                <div class="bookmark">
+                                    <span><i class="uil uil-bookmark-full"></i></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="./assets/profile_img-44x44/profile7-44x44.jpg" ></span>
+                                <span><img src="./assets/profile_img-44x44/profile6-44x44.jpg" ></span>
+                                <span><img src="./assets/profile_img-44x44/profile4-44x44.jpg" ></span>
+                                <p>Liked by <b>Anya Taylor-Joy</b> and <b>5,317 others</b></p>
+                            </div>
+
+                            <div class="caption">
+                                <p><b>Golden Globe</b> Seems @AustinButler are the winner, eh? <span class="hash-tag">#Awards1</span></p>
+                            </div>
+                            <div class="comments text-muted">View All 5.832 comments</div>
+                        </div>
+                        <!--Feed Three-->
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-photo">
+                                        <img src="./assets/profile_img-88x88/Profile4-88x-88.jpg">
+                                    </div>
+                                    <div class="ingo">
+                                        <h3>HBO MAX</h3>
+                                        <small>Everywhere, <span class="capitalise">3 days ago</span></small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="uil uil-ellipsis-h"></i>
+                                </span>
+                            </div>
+                            <div class="photo">
+                                <img src="./assets/feed/Feed-2.jpg">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="interaction-buttons">
+                                    <span><i class="uil uil-heart"></i></span>
+                                    <span><i class="uil uil-comment-dots"></i></span>
+                                    <span><i class="uil uil-share-alt"></i></span>
+                                </div>
+                                <div class="bookmark">
+                                    <span><i class="uil uil-bookmark-full"></i></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="./assets/profile_img-44x44/profile1-44x44.jpg" ></span>
+                                <span><img src="./assets/profile_img-44x44/profile3-44x44.jpg" ></span>
+                                <span><img src="./assets/profile_img-44x44/profile5-44x44.jpg" ></span>
+                                <p>Liked by <b>Pedro Pascal</b> and <b>6,541 others</b></p>
+                            </div>
+
+                            <div class="caption">
+                                <p><b>HBO MAX</b> Attention: The Last of Us is premiering now. <span class="hash-tag">#JoelandEllie</span></p>
+                            </div>
+                            <div class="comments text-muted">View All 532 comments</div>
+                        </div>
+                        <!--Feed Four-->
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-photo">
+                                        <img src="./assets/profile_img-44x44/profile2-44x44.jpg">
+                                    </div>
+                                    <div class="ingo">
+                                        <h3>Brad Pitt</h3>
+                                        <small>The first rule is..., <span class="capitalise">7 days ago</span></small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="uil uil-ellipsis-h"></i>
+                                </span>
+                            </div>
+                            <div class="photo">
+                                <img src="./assets/feed/Feed-3.jpg">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="interaction-buttons">
+                                    <span><i class="uil uil-heart"></i></span>
+                                    <span><i class="uil uil-comment-dots"></i></span>
+                                    <span><i class="uil uil-share-alt"></i></span>
+                                </div>
+                                <div class="bookmark">
+                                    <span><i class="uil uil-bookmark-full"></i></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="./assets/profile_img-44x44/profile5-44x44.jpg" alt="#"></span>
+                                <span><img src="./assets/profile_img-44x44/profile4-44x44.jpg" alt="#"></span>
+                                <span><img src="./assets/profile_img-44x44/profile6-44x44.jpg" alt="#"></span>
+                                <p>Liked by <b>Jared Leto</b> and <b>9,999 others</b></p>
+                            </div>
+
+                            <div class="caption">
+                                <p><b>Brad Pitt</b> Found somethin' these days... <span class="hash-tag">#*********</span></p>
+                            </div>
+                            <div class="comments text-muted">View All 532 comments</div>
+                        </div>
+                    </div>
+                    <!--End of The Feeds Section-->
+                </div>
+                <!--End of Middle Section-->
+                <!--Right Section-->
+                <div class="right">
+                    <!--Start of Messages-->
+                    <div class="messages">
+                        <div class="heading">
+                            <h4>Messages</h4><i class="uil uil-edit"></i>
+                        </div>
+                        <!--Search Bar-->
+                        <div class="search-bar">
+                            <i class="uil uil-search"></i>
+                            <input type="search" placeholder="Search message..." id="message-search">
+                        </div>
+                        <!--End of Search Bar-->
+                        <!--Messages Category-->
+                        <div class="category">
+                            <h6 class="active">Primary</h6>
+                            <h6>General</h6>
+                            <h6 class="message-requests">Requests(7)</h6>
+                        </div>
+                        <!--End of Messages Category-->
+                        <!--Message One-->
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="./assets/profile_img-88x88/profile8-88x-88.webp" alt="#">
+                            </div>
+                            <div class="message-body">
+                                <h5>Kate Winslet</h5>
+                                <p class="text-muted">They're reprising Titanic! 😍</p>
+                            </div>
+                        </div>
+                        <!--Message Two-->
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="./assets/profile_img-88x88/profile9-88x-88.jpg" alt="#">
+                                <div class="active"></div>
+                            </div>
+                            <div class="message-body">
+                                <h5>Keanu Reeves</h5>
+                                <p class="text-bold">Hey Leo! Tell me if u are there.</p>
+                            </div>
+                        </div>
+                        <!--Message Three-->
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="./assets/profile_img-88x88/profile10-88x-88.webp" alt="#">
+                            </div>
+                            <div class="message-body">
+                                <h5>Tobey Maguire</h5>
+                                <p class="text-muted">Missing work with you friend!</p>
+                            </div>
+                        </div>
+                        <!--Message Four-->
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="./assets/profile_img-88x88/profile11-88x-88.webp" alt="#">
+                                <div class="active"></div>
+                            </div>
+                            <div class="message-body">
+                                <h5>Quentin Tarantino</h5>
+                                <p class="text-bold">Got a new idea. Talk me later.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of Message-->
+                    <!--Friend Request-->
+                    <div class="friend-requests">
+                        <h4>Requests</h4>
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./assets/profile_img-44x44/profile10-44x44.jpg" alt="#">
+                                </div>
+                                <div>
+                                    <h5>Andrew Garfield</h5>
+                                    <p class="text-muted">
+                                       8 mutual friends 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">
+                                    Accept
+                                </button>
+                                <button class="btn">
+                                    Decline
+                                </button>
+                            </div>
+                        </div>
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./assets/profile_img-44x44/profile11-44x44.webp" alt="#">
+                                </div>
+                                <div>
+                                    <h5>Henry Cavill</h5>
+                                    <p class="text-muted">
+                                       4 mutual friends 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">
+                                    Accept
+                                </button>
+                                <button class="btn">
+                                    Decline
+                                </button>
+                            </div>
+                        </div>
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./assets/profile_img-44x44/profile9-44x44.webp" alt="#">
+                                </div>
+                                <div>
+                                    <h5>Martin Scorsese</h5>
+                                    <p class="text-muted">
+                                       19 mutual friends 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">
+                                    Accept
+                                </button>
+                                <button class="btn">
+                                    Decline
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End of Right Section-->
+            </div>
+        </main>
+
+        <div class="customize-theme">
+            <div class="card">
+                <h2>Customize your view</h2>
+                <p class="text-muted">Manage your font size, color and background.</p>
+
+                <!--Font Sizes Section-->
+                <div class="font-size">
+                    <h4>Font Size</h4>
+                    <div>
+                        <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3 active"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                    </div>
+                </div>
+                <!--End of Font Size Section-->
+                <!--Primary Colours Section-->
+                <div class="colour">
+                    <h4>Colour</h4>
+                    <div class="choose-colour">
+                        <span class="colour-1 active"></span>
+                        <span class="colour-2"></span>
+                        <span class="colour-3"></span>
+                        <span class="colour-4"></span>
+                        <span class="colour-5"></span>
+                    </div>
+                </div>
+                <!--End of Primary Colours Section-->
+                <!--Background Colours-->
+                <div class="background">
+                    <h4>Background</h4>
+                    <div class="choose-bg">
+                        <div class="bg-1 active">
+                            <span></span>
+                            <h5 for="bg-1">Light</h5>
+                        </div>
+                        <div class="bg-2">
+                            <span></span>
+                            <h5 for="bg-2">Dim</h5>
+                        </div>
+                        <div class="bg-3">
+                            <span></span>
+                            <h5 for="bg-3">Lights Out</h5>
+                        </div>
+                    </div>
+                </div>
+                <!--End of Background Colours Section-->
+            </div>
+        </div>
+        
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
