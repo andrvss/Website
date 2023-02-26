@@ -7,6 +7,7 @@ terraSocial, o clone de uma rede social em formato de website. <br/>
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -33,6 +34,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Projeto realizado para treinamento de linguagens de programação como HTML, CSS e JavaScript. Ainda não está totalmente concluído, pois farei atualizações conforme aprendo novas funções e também aplicarei a responsividade. Tratado como clone, é um website de rede social, onde coloquei para simular os perfis, atores famosos e alguns dos quais sou fã. Na sessão de stories vemos animais, pois abordei uma metodologia de "Animal Day", como se fosse o caso para todos eles postarem. 
 
 - [Visite o projeto online aqui](https://andrvss.github.io/Website/)
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/l6XpPpew0EbGMJwlr3Mkll/tS---thumbnail?node-id=0%3A1&t=OLIZmDKwN8hRZcih-1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
