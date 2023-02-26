@@ -18,7 +18,7 @@ terraSocial, o clone de uma rede social em formato de website. <br/>
 <br>
 
 <p align="center">
-  <img alt="Projeto terraSocial" src="https://user-images.githubusercontent.com/110691699/221419998-b47f5d82-0ed7-4c2d-8c8b-70ec3e776906.mp4" width="100%">
+  <img alt="Projeto terraSocial" src="https://user-images.githubusercontent.com/110691699/221421170-77b0905c-5bfe-458d-bf12-90ea01619324.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
